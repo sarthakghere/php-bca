@@ -1,4 +1,3 @@
-<!-- // Q29: Find HCF of two numbers -->
 <?php
     $a = 36;
     $b = 60;

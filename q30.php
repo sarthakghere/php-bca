@@ -1,4 +1,3 @@
-<!-- // Q30: Print Fibonacci series -->
 <?php
     $n = 10;
     $a = 0;

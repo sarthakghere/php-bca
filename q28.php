@@ -1,4 +1,3 @@
-<!-- // Q28: Find the factorial of a number -->
 <?php
     $n = 5;
     $fact = 1;

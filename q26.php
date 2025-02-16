@@ -1,4 +1,3 @@
-<!-- // Q26: Find the biggest number in an array without using a function -->
 <?php
     $num = array(10, 25, 5, 9, 8, 12);
     $max = $num[0];

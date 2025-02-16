@@ -1,4 +1,3 @@
-<!-- // Q27: Find the square of a number -->
 <?php
     $num = 5;
     $sq = $num * $num;
