@@ -9,8 +9,8 @@ $part1 = substr($text, 0, 3);
 $part2 = substr($text, 10);
 
 // Display the results
-echo "Original String: $text<br>";
-echo "Substring (0, 3): $part1<br>";
+echo "Original String: $text\n";
+echo "Substring (0, 3): $part1\n";
 echo "Substring (10 to end): $part2";
 
 echo "\nCode by Sarthak Gupta - 2220100292\n";

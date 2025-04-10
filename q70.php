@@ -6,7 +6,7 @@ $currentTime = time();
 $formattedTime = date("Y-m-d H:i:s", $currentTime);
 
 // Display the results
-echo "Current Unix Timestamp: $currentTime<br>";
+echo "Current Unix Timestamp: $currentTime\n";
 echo "Formatted Date and Time: $formattedTime";
 
 echo "\nCode by Sarthak Gupta - 2220100292\n";

@@ -12,8 +12,8 @@ $today = new DateTime();
 $age = $birthDate->diff($today);
 
 // Display the age
-echo "Date of Birth: " . $dob . "<br>";
-echo "Current Date: " . $today->format('Y-m-d') . "<br><br>";
+echo "Date of Birth: " . $dob . "\n";
+echo "Current Date: " . $today->format('Y-m-d') . "\n\n";
 
 echo "Age is: " . $age->y . " years, " . $age->m . " months, " . $age->d . " days.";
 

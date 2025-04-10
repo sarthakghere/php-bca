@@ -9,7 +9,7 @@ $sunrise = date_sunrise($date, SUNFUNCS_RET_STRING, $latitude, $longitude, 90, 5
 $sunset = date_sunset($date, SUNFUNCS_RET_STRING, $latitude, $longitude, 90, 5.5);
 
 // Display results
-echo "Sunrise Time: $sunrise<br>";
+echo "Sunrise Time: $sunrise\n";
 echo "Sunset Time: $sunset";
 
 echo "\nCode by Sarthak Gupta - 2220100292\n";

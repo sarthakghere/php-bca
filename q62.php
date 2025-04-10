@@ -6,7 +6,7 @@ $text = "php is a powerful scripting language";
 $formattedText = ucwords($text);
 
 // Display the result
-echo "Original String: $text<br>";
+echo "Original String: $text\n";
 echo "After ucwords(): $formattedText";
 
 echo "\nCode by Sarthak Gupta - 2220100292\n";
