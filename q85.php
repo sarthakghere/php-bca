@@ -1,30 +1,10 @@
 <?php
-// MySQL connection details
-$servername = "localhost";
-$username = "root";
-$password = ""; // your MySQL password
-$database = "myDatabase";
+$conn = new mysqli("localhost", "root", "", "myDatabase");
+if ($conn->connect_error) die("Connection failed");
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $database);
+$sql = "INSERT INTO students (name, age, email) VALUES ('John Doe', 20, 'john@example.com')";
+echo $conn->query($sql) ? "Data inserted" : "Error: " . $conn->error;
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// SQL to insert data
-$sql = "INSERT INTO students (name, age, email, gender) 
-        VALUES ('Alice Johnson', 22, 'alice@example.com', 'Female')";
-
-// Execute the query
-if ($conn->query($sql) === TRUE) {
-    echo "Record inserted successfully into 'students' table.";
-} else {
-    echo "Error inserting data: " . $conn->error;
-}
-
-// Close connection
 $conn->close();
 
 echo "\nCode by Sarthak Gupta - 2220100292\n";
